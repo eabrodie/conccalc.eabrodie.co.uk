@@ -16,4 +16,4 @@ app.get(
   browserify(__dirname + "/client.js", { transform: babelify })
 );
 
-app.listen(3000);
+module.exports = app.listen(3000);
