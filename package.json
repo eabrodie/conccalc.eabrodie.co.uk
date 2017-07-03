@@ -1,0 +1,36 @@
+{
+  "name": "concentration-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conc-calc.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch",
+    "format": "prettier --write \"src/**/*.js\"",
+    "precommit": "npm run format",
+    "prepush": "npm run test",
+    "flow": "flow",
+    "start": "babel-node src/server.js"
+  },
+  "author": "",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.45.0",
+    "husky": "^0.13.3",
+    "jest": "^19.0.2",
+    "prettier": "^1.2.2"
+  },
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "browserify-middleware": "^7.1.0",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^1.4.5"
+  }
+}
