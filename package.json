@@ -11,7 +11,7 @@
     "prepush": "npm run test",
     "flow": "flow",
     "start": "babel-node src/server.js",
-    "deploy": "rimraf out && node deploy && rimraf out"
+    "deploy": "rimraf out && babel-node deploy && rimraf out"
   },
   "author": "",
   "private": true,
