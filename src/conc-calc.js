@@ -32,7 +32,7 @@ export default function ConcCalc(
     return (
       "The volume is " +
       roundToDigit(ans * 1000, 1) +
-      " ul, " +
+      " μl, " +
       roundToDigit(ans, 3) +
       " ml or " +
       roundToDigit(ans / 1000, 6) +
@@ -52,7 +52,7 @@ export default function ConcCalc(
     return (
       "The mass is " +
       roundToDigit(ans * 1000, 0) +
-      " ug, " +
+      " μg, " +
       roundToDigit(ans, 3) +
       " mg or " +
       roundToDigit(ans / 1000, 6) +
@@ -69,7 +69,7 @@ function convertUnits(n: number, unit: string): number {
     case "mg":
     case "ml":
       return n;
-    case "ul":
+    case "μl":
       return n / 1000;
     case "l":
       return n * 1000;
