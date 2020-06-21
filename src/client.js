@@ -84,9 +84,9 @@ function displayConcentration(calc) {
 class App extends React.Component {
   state = {
     volume: "",
-    volumeUnits: "μl",
+    volumeUnits: "ul",
     mass: "",
-    massUnits: "μg",
+    massUnits: "ug",
     conc: "",
     concVolUnits: "mg",
     concMassUnits: "ml",
